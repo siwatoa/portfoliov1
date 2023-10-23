@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faSquareCaretRight } from "@fortawesome/free-regular-svg-icons";
 import { textStatic } from "../contents/HomeFirst";
 import mypicimg  from "../assets/mypic.png";
-import fileResume from "../assets/myresumeV1.pdf"
+import fileResume from "../assets/resume-siwat-photinam.pdf"
 
 const HomeFirst = () => {
     const [text] = useTypewriter({
