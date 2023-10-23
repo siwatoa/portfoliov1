@@ -7,7 +7,7 @@ import { useState } from "react";
 const NavBar = () => {
     const Links =[
         {name:"About",link:"/"},
-        {name:"Portfolios",link:"/"},
+        {name:"Projects",link:"/"},
         {name:"Contact",link:"/"},
     ];
     const [open,setOpen] = useState(false);
