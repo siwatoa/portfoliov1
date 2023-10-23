@@ -32,7 +32,7 @@ const SkillsMe = () => {
         <div className="idpsoftset">
         <div className="softset cols-span-1 grid grid-cols-3 text-[#0C3756]">
           {SoftSet.map((item, index) => (
-            <div key={index} className={`cols-span-1 ${index % 2 === 0 ? "bg-[#FFF9BA]" : "bg-[#FFFED9]"} rounded-lg mx-1 my-1`}>
+            <div key={index} className={`cols-span-1 ${index % 2 === 0 ? "bg-[#FFF9BA]" : "bg-[#FFFBE9]"} rounded-lg mx-1 my-1`}>
                <div className="flex flex-row justify-center mt-2">
                   <img src={item.img} alt={item.wd + " img"} className="w-8 h-8 md:w-12 md:h-12" />
                </div>

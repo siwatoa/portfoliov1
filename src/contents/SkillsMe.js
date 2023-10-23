@@ -112,7 +112,7 @@ export const SoftSet =[
    },
    { 
     img: curlogo ,
-    wd: "Curiousity",
+    wd: "Curiousity and Creativity",
    },
    { 
      img: detlogo,
