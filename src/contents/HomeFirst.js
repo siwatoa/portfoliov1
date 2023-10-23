@@ -1,6 +1,6 @@
 export const textStatic = {
     txt1: "Hello, I am",
-    txt2: "Siwat Photinam ◡̈",
+    txt2: "Siwat Photinam",
     txt3: "I am",
     txt4: "Actively",
     txt5: "seeking",
