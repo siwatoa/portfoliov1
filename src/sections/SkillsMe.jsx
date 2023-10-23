@@ -15,7 +15,7 @@ const SkillsMe = () => {
             </div>
         </div>
 
-        <div className ="grid grid-cols-2 gap-5 mx-5 my-5 ">
+        <div className ="grid grid-cols-2 gap-3 mx-5 my-5 ">
         
         <div className ="idptechset">
         <div className="techset cols-span-1 grid grid-cols-3 text-[#0C3756]">
