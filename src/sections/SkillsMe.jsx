@@ -24,7 +24,7 @@ const SkillsMe = () => {
                <div className="flex flex-row justify-center mt-2">
                   <img src={item.img} alt={item.wd + " img"} className="w-8 h-8 md:w-12 md:h-12" />
                </div>
-                  <div className='txtprof1 text-[8px] font-bold text-center md:text-xl my-2 break-words'>{item.wd}</div>
+                  <div className='txtprof1 text-[6px] font-bold text-center md:text-xl my-2 break-words'>{item.wd}</div>
             </div>))}
         </div>
         </div>
@@ -36,7 +36,7 @@ const SkillsMe = () => {
                <div className="flex flex-row justify-center mt-2">
                   <img src={item.img} alt={item.wd + " img"} className="w-8 h-8 md:w-12 md:h-12" />
                </div>
-                  <div className='txtprof1 text-[8px] font-bold text-center md:text-xl my-2 break-words'>{item.wd}</div>
+                  <div className='txtprof1 text-[6px] font-bold text-center md:text-xl my-2 break-words'>{item.wd}</div>
             </div>))}
         </div>
         </div>
