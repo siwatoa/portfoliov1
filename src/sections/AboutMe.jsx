@@ -16,7 +16,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const AboutMe = () => {
     return (
         <>
-            <div className="wordcov1 inline-block flex justify-left ml-5 mt-20 md:ml-0 md:mt-0 md:justify-center">
+            <div className="wordcov1 inline-block flex justify-left ml-5 mt-30 md:ml-0 md:mt-0 md:justify-center">
             <div className="word1 bg-[#B7D9E2] font-black text-[#0C3756] 
                  text-xl md:text-4xl mt-10 md:mt-40 py-2.5 px-2.5 rounded-tl-lg rounded-bl-lg">
                Work Experiences
