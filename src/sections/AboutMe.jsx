@@ -19,7 +19,7 @@ import { SoftSet } from "../contents/AboutMe";
 const AboutMe = () => {
     return (
         <>
-            <div className="wordcov1 inline-block flex justify-left ml-5 mt-5 md:ml-0 md:mt-0 md:justify-center">
+            <div className="wordcov1 inline-block flex justify-left ml-5 mt-20 md:ml-0 md:mt-0 md:justify-center">
             <div className="word1 bg-[#B7D9E2] font-black text-[#0C3756] 
                  text-xl md:text-4xl mt-10 md:mt-40 py-2.5 px-2.5 rounded-tl-lg rounded-bl-lg">
                Work Experiences
@@ -100,7 +100,7 @@ const AboutMe = () => {
             </div>
 
             <div className="alltech flex justify-center">
-            <div className="text grid grid-cols-9 w-[600px] md:w-[1000px] mx-5 my-5">
+            <div className="text grid grid-cols-6 md:grid-cols-9 w-[400px] md:w-[1000px] mx-5 my-5">
                {TechSet.map((item, index) => (
                  <div key={index} className={`cols-span-1 ${index % 2 === 0 ? "bg-[#F0FCFE]" : "bg-[#B7D9E2]"} rounded-lg mx-1 my-1`}>
                    <div className="flex flex-row justify-center mt-2">
