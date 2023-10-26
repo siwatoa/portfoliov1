@@ -13,10 +13,13 @@ import rmutlogo from "../assets/rmutlogo.png"
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
 
+import { TechSet } from "../contents/AboutMe";
+import { SoftSet } from "../contents/AboutMe";
+
 const AboutMe = () => {
     return (
         <>
-            <div className="wordcov1 inline-block flex justify-left ml-5 mt-32 md:ml-0 md:mt-0 md:justify-center">
+            <div className="wordcov1 inline-block flex justify-left ml-5 mt-5 md:ml-0 md:mt-0 md:justify-center">
             <div className="word1 bg-[#B7D9E2] font-black text-[#0C3756] 
                  text-xl md:text-4xl mt-10 md:mt-40 py-2.5 px-2.5 rounded-tl-lg rounded-bl-lg">
                Work Experiences
@@ -88,7 +91,45 @@ const AboutMe = () => {
               </VerticalTimelineElement>
 
             </VerticalTimeline>
-         
+             
+            <div className="word1 inline-block flex justify-left ml-5 justify-center">
+            <div className="techskill bg-[#B7D9E2] font-black text-[#0C3756] 
+                 text-xl md:text-4xl mt-5 py-2.5 px-2.5 rounded-lg">
+               Technical Skills
+            </div>
+            </div>
+
+            <div className="alltech flex justify-center">
+            <div className="text grid grid-cols-9 w-[600px] md:w-[1000px] mx-5 my-5">
+               {TechSet.map((item, index) => (
+                 <div key={index} className={`cols-span-1 ${index % 2 === 0 ? "bg-[#F0FCFE]" : "bg-[#B7D9E2]"} rounded-lg mx-1 my-1`}>
+                   <div className="flex flex-row justify-center mt-2">
+                     <img src={item.img} alt={item.wd + " img"} className="w-8 h-8 md:w-12 md:h-12"/>
+                   </div>
+                 <div className='txtprof1 text-[8px] font-semibold text-center md:text-base my-2 break-words'>{item.wd}</div>
+               </div>))}
+             </div>
+             </div>
+
+            <div className="word1 inline-block flex justify-left ml-5 justify-center">
+            <div className="word1 bg-[#FFF9BA] font-black text-[#0C3756] 
+                 text-xl md:text-4xl py-2.5 px-9 md:px-14 rounded-lg">
+               Soft Skills
+            </div>
+            </div>
+
+            <div className="alltech flex justify-center">
+            <div className="text grid grid-cols-6 w-[400px] md:w-[800px] mx-5 my-5">
+               {SoftSet.map((item, index) => (
+                 <div key={index} className={`cols-span-1 ${index % 2 === 0 ? "bg-[#FFFBE9]" : "bg-[#FFF9BA]"} rounded-lg mx-1 my-1`}>
+                   <div className="flex flex-row justify-center mt-2">
+                     <img src={item.img} alt={item.wd + " img"} className="w-8 h-8 md:w-12 md:h-12"/>
+                   </div>
+                 <div className='txtprof1 text-[8px] font-semibold text-center md:text-base my-2 break-words'>{item.wd}</div>
+               </div>))}
+             </div>
+             </div>
+
         </>
     )
 }        

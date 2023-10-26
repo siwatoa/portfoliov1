@@ -54,14 +54,14 @@ const HomeFirst = () => {
         <div className="linkbutton flex justify-center items-center mt-5">
            <a href={fileResume} target="_blank">
            <button className="font-bold text-sm py-2.5 px-2.5
-                   bg-[#B7D9E2] [text-[#0C3756] rounded-full hover:scale-105">
+                   bg-[#B7D9E2] [text-[#0C3756] rounded-lg hover:scale-105">
                    <FontAwesomeIcon icon={faDownload} />{' '} {textStatic.txt19}
            </button>
            </a>
 
            <a href="mailto:siwatoa@gmail.com" target="_blank">
            <button className="font-bold text-sm py-2.5 px-2.5 ml-2.5
-                   bg-[#B7D9E2] [text-[#0C3756] rounded-full hover:scale-105">
+                   bg-[#B7D9E2] [text-[#0C3756] rounded-lg hover:scale-105">
                    <FontAwesomeIcon icon={faEnvelope} />{' '} {textStatic.txt20}
            </button>
            </a>
@@ -84,7 +84,7 @@ const HomeFirst = () => {
         </div>
 
       </section>
-  
+        
     </>
     )
 }
