@@ -61,40 +61,6 @@ export const AboutE ={
     des1: "• Achieved a High Vocational Education Certificate with a major in Computer Technology.",
 };
 
-
-// export const SklGen =[
-//     {name: "JavaScript"},
-//     {name: "Tailwind"},
-//     {name: "ReactJS"},
-//     {name: "NodeJS"},
-//     {name: "ExpressJS"},
-//     {name: "MongoDB"},
-//     {name: "Agile"},
-//     {name: "Scrum"},
-// ];
-
-// export const SklTg =[
-//     {name: "SAP(FI/CO,SD)"},
-//     {name: "Corporate Finance"},
-//     {name: "Sales and Marketing"},
-//     {name: "Sabre Airline Solution"},
-//     {name: "Resource Management Systems"},
-//     {name: "Warehouse Systems"},
-//     {name: "SQL"},
-//     {name: "Spreadsheet"},
-//     {name: "MS PowerBI"},
-//     {name: "Tableau"},
-//     {name: "Customer Service Orientation"},
-//     {name: "English Communication"},
-// ];
-
-// export const SklCafe =[
-//     {name: "Business Management"},
-//     {name: "Finance and Taxation"},
-//     {name: "Computer Network"},
-//     {name: "Customer Services"},
-// ];
-
 export const TechSet =[
     { 
       img: htmllogo,

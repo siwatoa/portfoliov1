@@ -100,7 +100,7 @@ const AboutMe = () => {
             </div>
 
             <div className="alltech flex justify-center">
-            <div className="text grid grid-cols-6 md:grid-cols-9 w-[400px] md:w-[1000px] mx-5 my-5">
+            <div className="text text-[#0C3756] grid grid-cols-6 md:grid-cols-9 w-[400px] md:w-[1000px] mx-5 my-5">
                {TechSet.map((item, index) => (
                  <div key={index} className={`cols-span-1 ${index % 2 === 0 ? "bg-[#B7D9E2]" : "bg-[#F0FCFE]"} rounded-lg mx-1 my-1`}>
                    <div className="flex flex-row justify-center mt-2">
@@ -119,7 +119,7 @@ const AboutMe = () => {
             </div>
 
             <div className="alltech flex justify-center">
-            <div className="text grid grid-cols-6 w-[400px] md:w-[800px] mx-5 my-5">
+            <div className="text text-[#0C3756] grid grid-cols-6 w-[400px] md:w-[800px] mx-5 my-5">
                {SoftSet.map((item, index) => (
                  <div key={index} className={`cols-span-1 ${index % 2 === 0 ? "bg-[#FFF9BA]" : "bg-[#FFFBE9]"} rounded-lg mx-1 my-1`}>
                    <div className="flex flex-row justify-center mt-2">
