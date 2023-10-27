@@ -30,7 +30,7 @@ export const ProjectDev = [
 
 export const ProjectData = [
    {img: travelpic,
-       name: "Airline Passenger Satisfaction",
+       name: "Airline Passenger Satisfaction Data",
        des1: "• Identified significant factors affecting passenger satisfaction from services or products",
        des2: "• Utilized Python libraries to analyze and visualize data",
        link1: travelDoc,
