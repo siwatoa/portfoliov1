@@ -15,7 +15,7 @@ const ContactForm = () => {
     const publicKey = 'qgZCO2u-EsYVOrtOJ';
 
     const templateParams = {
-      from_name: name,
+      user_name: name,
       from_email: email,
       to_name: 'Siwat Photinam',
       message: message,
@@ -37,38 +37,41 @@ const ContactForm = () => {
     <>
       <div className="structure grid grid-cols-2">
 
-      <form onSubmit={handleSubmit} className="contactform col-span-1 flex flex-col justify-center items-center mt-20 mb-10">
+      <form onSubmit={handleSubmit} 
+        className="contactform col-span-2 md:col-span-1 flex flex-col justify-center
+        mt-28 mb-28 ml-10 mr-10 w-[70%] md:w-[80%]">
+
         <input
           type="text"
           placeholder="Your Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="rounded-lg mb-2 px-2 py-2"
+          className="rounded-lg mb-2"
         />
         <input
           type="email"
           placeholder="Your Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="rounded-lg mb-4 px-2 py-2"
+          className="rounded-lg mb-4"
         />
         <textarea
           cols="30"
           rows="10"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="rounded-lg mb-4 w-[400px] h-[300px]"
+          className="rounded-lg mb-4"
         />
         <button 
           type="submit"
-          className="rounded-lg px-20 py-2 bg-[#B7D9E2] font-bold hover:scale-105">
+          className="rounded-lg bg-[#B7D9E2] font-bold">
           Send
         </button>
       </form>
 
-      <div className="picHome col-span-1 order-1 md:order-2">
+      <div className="picHome md:col-span-1 order-1 md:order-2 flex items-center mt-28">
           <img src={contactme} alt="mypic image" 
-           className="hidden md:w-[500px] md:h-[250px] md:block flex mt-52" />
+           className="hidden md:w-[500px] md:h-[250px] md:block" />
       </div>
 
       </div>

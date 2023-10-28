@@ -21,7 +21,7 @@ const ProjectsMe = () => {
             </div>             
        </div>
 
-       <div className="proj grid grid-cols-1 md:grid-cols-2 gap-9 my-9">
+       <div className="proj grid grid-cols-1 md:grid-cols-2 gap-5 my-5">
 
        {ProjectList.map((item, index) => (
             <div key={index} className={`proj text-[#0C3756] 
