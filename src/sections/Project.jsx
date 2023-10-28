@@ -30,10 +30,10 @@ const ProjectsMe = () => {
                  ${window.innerWidth < 640 ? 'justify-self-center' : (index % 2 === 0 ? 'justify-self-end' : '')}`}>
                 <img src={item.img} className="rounded-tl-lg rounded-tr-lg w-[350px] h-[165px]" />
                 <h1 className="nameproj mt-3 text-center font-bold">{item.name}</h1>
-                <p className="desproj1 mx-3 mt-1 text-xs md:text-sm"
+                <p className="desproj1 mx-3 mt-1 text-sm"
                 style={{ borderTop: `2px solid ${item.color === 'blue' ? '#5C93AA' : '#FFDD00'}`, 
                          paddingTop: '10px', marginTop: '10px' }}>{item.des1}</p>
-                <p className="desproj2 mx-3 mt-1 mb-5 text-xs md:text-sm"
+                <p className="desproj2 mx-3 mt-1 mb-5 text-sm"
                 style={{ borderBottom: `2px solid ${item.color === 'blue' ? '#5C93AA' : '#FFDD00'}`, 
                          paddingBottom: '10px', marginBottom: '10px' }}>{item.des2}</p>
                 <a href={item.link1} target="_blank">
