@@ -26,7 +26,7 @@ const ProjectsMe = () => {
        {ProjectList.map((item, index) => (
             <div key={index} className={`proj text-[#0C3756] 
                  bg-[#${item.color === "blue" ? "B7D9E2" : "FFF9BA"}] 
-                 w-[350px] h-[350px] rounded-lg md:hover:scale-105
+                 w-[350px] h-[350px] rounded-lg hover:scale-105
                  ${window.innerWidth < 640 ? 'justify-self-center' : (index % 2 === 0 ? 'justify-self-end' : '')}`}>
                 <img src={item.img} className="rounded-tl-lg rounded-tr-lg w-[350px] h-[165px]" />
                 <h1 className="nameproj mt-3 text-center font-bold">{item.name}</h1>
