@@ -7,17 +7,17 @@ const ProjectsMe = () => {
     return(
        <>
        <div className="word1 inline-block flex justify-center">
-            <div className="webdev bg-[#FFFFFF] font-black text-[#0C3756] 
+            <div className="webdev bg-[#F0FCFE] font-black text-[#0C3756] 
                  text-xl md:text-4xl mt-5 py-2.5 px-2.5 rounded-tl-lg rounded-bl-lg">
                Projects
             </div>
             <div className="webdev bg-[#B7D9E2] font-black text-[#0C3756] 
                  text-xl md:text-4xl mt-5 py-2.5 px-2.5">
-               Developer
+               Web Developer
             </div>
             <div className="webdev bg-[#FFF9BA] font-black text-[#0C3756] 
                  text-xl md:text-4xl mt-5 py-2.5 px-2.5 rounded-tr-lg rounded-br-lg">
-               Data
+               Data Analyst
             </div>             
        </div>
 
@@ -33,12 +33,14 @@ const ProjectsMe = () => {
                 <p className="desproj1 mx-3 mt-1 text-xs md:text-sm">{item.des1}</p>
                 <p className="desproj2 mx-3 mt-1 mb-5 text-xs md:text-sm">{item.des2}</p>
                 <a href={item.link1} target="_blank">
+                  <span className="req1 font-medium ml-[90px]">{item.req1}</span>
                   <FontAwesomeIcon icon={faArrowUpRightFromSquare} 
-                  size="xl" style={{marginLeft: "140px"}} />
+                  size="xl" style={{marginLeft: "5px"}}/>
                 </a>
                 <a href={item.link2} target="_blank">
+                  <span className="req2 font-medium text-center ml-[15px]">{item.req2}</span>
                   <FontAwesomeIcon icon={faCode} 
-                  size="xl" style={{marginLeft: "20px"}} />
+                  size="xl" style={{marginLeft: "5px"}} />
                 </a>
             </div>))}
         
