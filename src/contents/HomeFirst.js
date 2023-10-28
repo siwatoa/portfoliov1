@@ -16,7 +16,7 @@ export const textStatic = {
     txt15: "about",
     txt16: "learning",
     txt17: "what it takes",
-    txt18: "to become a Data Analyst or Web Developer.",
+    txt18: "to become a Data Analyst and Web Developer.",
     txt19: "Resume",
     txt20: "E-mail",
 };

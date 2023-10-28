@@ -28,7 +28,7 @@ export const ProjectList = [
     {img: findhat,
        name: "Build the Find Your Hat Game",
        des1: "• Implemented the game, following the requirements provided by codecademy.com.",
-       des2: "• Applied JavaScript Fundamentals to construct this game.",
+       des2: "• Utilized JavaScript Fundamentals to construct this game.",
        link1: "https://replit.com/@SIWATPHOTINAM/42-find-your-hat#index.js",
        link2: "https://replit.com/@SIWATPHOTINAM/42-find-your-hat#index.js",
        color: "blue",

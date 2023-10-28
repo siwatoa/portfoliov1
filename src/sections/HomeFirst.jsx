@@ -19,9 +19,9 @@ const HomeFirst = () => {
     return(
         <>
        
-        <section className="home grid grid-cols-1 md:grid-cols-2 md:gap-0 mt-20 md:mt-24 mx-6">
+        <section className="home grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-24 mx-6">
 
-        <div className="intro col-span-1 order-2 md:order-1 -w-2/3">
+        <div className="intro col-span-1 order-2 md:order-1 justify-self-center">
           <div className="arrangeintro ml-15 md:ml-10">
            <h1 className="text-xl md:text-3xl mt-5 text-[#B7D9E2]">{textStatic.txt1}{' '} 
              <span className="font-bold text-[#F0FCFE]">{textStatic.txt2}</span></h1>
@@ -78,7 +78,7 @@ const HomeFirst = () => {
            </div>
         </div>
 
-        <div className="picHome col-span-1 order-1 md:order-2 ml-[50px] md:ml-[100px]">
+        <div className="picHome col-span-1 order-1 md:order-2 justify-self-center">
           <img src={mypicimg} alt="mypic image" 
            className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full border-2" />
         </div>
@@ -91,3 +91,4 @@ const HomeFirst = () => {
 
 export default HomeFirst; 
 
+// ml-[50px] md:ml-[100px]

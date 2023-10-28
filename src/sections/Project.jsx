@@ -21,7 +21,7 @@ const ProjectsMe = () => {
             </div>             
        </div>
 
-       <div className="proj grid grid-cols-1 md:grid-cols-2 gap-5 my-5">
+       <div className="proj grid grid-cols-1 md:grid-cols-2 gap-9 my-9">
 
        {ProjectList.map((item, index) => (
             <div key={index} className={`proj text-[#0C3756] 
@@ -51,13 +51,6 @@ const ProjectsMe = () => {
         </div>
         </> 
     )
-}
+};
 
 export default ProjectsMe;
-
-// ${window.innerWidth <= 640 ? 'justify-self-center' : 
-// (index % 2 === 0 ? 'justify-self-end' : '')}`}>
-
-{/* <div key={index} className={`proj text-[#0C3756] 
-                 bg-[#${item.color === "blue" ? "B7D9E2" : "FFF9BA"}] 
-                 w-[350px] h-[350px] rounded-lg md:hover:scale-105`}></div> */}
