@@ -26,7 +26,7 @@ const NavBar = () => {
             className="text-3xl text-[#0C3756] absolute right-8 top-1 cursor-pointer md:hidden">
             <FontAwesomeIcon icon={open ? faXmark : faBars} />
             </div>
-            <ul className={`webmenu font-black text-xl text-[#0C3756] mr-[30px] md:flex place-items-center
+            <ul className={`webmenu font-bold text-xl text-[#0C3756] mr-[30px] md:flex place-items-center
                  absolute md:static md:z-100 -z-1 left-0 w-full md:w-auto
                  md:pl-0 pl-9 transition-all duration-500 ease-in
                  ${open ? 'top-10 opacity-100 bg-[#B7D9E2]' : 'top-[-490px] opacity-0'}

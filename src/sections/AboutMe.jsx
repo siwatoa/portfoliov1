@@ -20,11 +20,11 @@ const AboutMe = () => {
     return (
         <>
             <div className="wordcov1 inline-block flex justify-left ml-5 mt-20 md:ml-0 md:mt-0 md:justify-center">
-            <div className="word1 bg-[#B7D9E2] font-black text-[#0C3756] 
+            <div className="word1 bg-[#B7D9E2] font-bold text-[#0C3756] 
                  text-xl md:text-4xl mt-10 md:mt-40 py-2.5 px-2.5 rounded-tl-lg rounded-bl-lg">
                Work Experiences
             </div>
-            <div className="word1 bg-[#FFF9BA] font-black text-[#0C3756] 
+            <div className="word1 bg-[#FFF9BA] font-bold text-[#0C3756] 
                  text-xl md:text-4xl mt-10 md:mt-40 py-2.5 px-2.5 rounded-tr-lg rounded-br-lg">
                Education
             </div>
@@ -93,7 +93,7 @@ const AboutMe = () => {
             </VerticalTimeline>
              
             <div className="word1 inline-block flex justify-left ml-5 justify-center">
-            <div className="techskill bg-[#B7D9E2] font-black text-[#0C3756] 
+            <div className="techskill bg-[#B7D9E2] font-bold text-[#0C3756] 
                  text-xl md:text-4xl mt-5 py-2.5 px-2.5 rounded-lg">
                Technical Skills
             </div>
@@ -112,7 +112,7 @@ const AboutMe = () => {
              </div>
 
             <div className="word1 inline-block flex justify-left ml-5 justify-center">
-            <div className="word1 bg-[#FFF9BA] font-black text-[#0C3756] 
+            <div className="word1 bg-[#FFF9BA] font-bold text-[#0C3756] 
                  text-xl md:text-4xl py-2.5 px-9 md:px-14 rounded-lg">
                Soft Skills
             </div>
