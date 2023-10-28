@@ -39,7 +39,7 @@ const ContactForm = () => {
 
       <form onSubmit={handleSubmit} 
         className="contactform col-span-2 md:col-span-1 flex flex-col justify-center
-        mt-28 mb-28 ml-10 mr-10 w-[90%] md:w-[80%]">
+        mt-28 mb-28 ml-10 mr-10 w-[80%]">
 
         <input
           type="text"
