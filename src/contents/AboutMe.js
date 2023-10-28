@@ -21,10 +21,11 @@ import tablogo from "../assets/018-tableau-blue.png";
 
 import detlogo from "../assets/019-detail-blue.png";
 import curlogo from "../assets/020-curious-blue.png";
-import reslogo from "../assets/021-resilience-blue.png";
+// import reslogo from "../assets/021-resilience-blue.png";
 import comlogo from "../assets/022-communication-blue.png";
 import persistlogo from "../assets/023-persistence-blue.png";
-import teamlogo from "../assets/024-teamwork-blue.png"
+import teamlogo from "../assets/024-teamwork-blue.png";
+import growthlogo from "../assets/025-growth-blue.png";
 
 export const AboutA = {
     pos: "Web Developer Bootcamp Graduate",
@@ -154,8 +155,8 @@ export const SoftSet =[
      wd: "Detail Orientation",
    },
    { 
-     img: reslogo,
-     wd: "Resilience",
+     img: growthlogo,
+     wd: "Growth Mindset",
    },
    {
     img: persistlogo,
