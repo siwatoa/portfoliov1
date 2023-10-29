@@ -6,7 +6,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faSquareCaretRight } from "@fortawesome/free-regular-svg-icons";
 import { textStatic } from "../contents/HomeFirst";
-import mypicimg  from "../assets/mypic.png";
+import mypicimg  from "../assets/mypic2.png";
 import fileResume from "../assets/resume-siwat-photinam.pdf"
 import { Element } from "react-scroll";
 
