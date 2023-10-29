@@ -26,7 +26,7 @@ const NavBar = () => {
             </ScrollLink>
 
             <div onClick={()=>setOpen(!open)} 
-            className="text-xl text-[#0C3756] absolute right-8 top-2 cursor-pointer md:hidden">
+            className="text-xl text-[#0C3756] absolute right-8 top-3 cursor-pointer md:hidden">
             <FontAwesomeIcon icon={open ? faXmark : faBars} />
             </div>
             <ul className={`webmenu font-bold text-xl text-[#0C3756] mr-[30px] md:flex place-items-center
