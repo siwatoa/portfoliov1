@@ -22,7 +22,7 @@ const AboutMe = () => {
     return (
         <>
             <Element name="AboutMe">
-            <div className="wordcov1 inline-block flex justify-left ml-10 mt-10 md:ml-0 md:mt-0 md:justify-center" id="About-section">
+            <div className="wordcov1 inline-block flex justify-left ml-5 mt-10 md:ml-0 md:mt-0 md:justify-center" id="About-section">
             <div className="word1 bg-[#B7D9E2] font-bold text-[#0C3756] 
                  text-xl md:text-4xl mt-10 md:mt-40 py-2.5 px-2.5 rounded-tl-lg rounded-bl-lg">
                Work Experiences
