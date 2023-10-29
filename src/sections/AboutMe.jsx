@@ -24,11 +24,11 @@ const AboutMe = () => {
             <Element name="AboutMe">
             <div className="wordcov1 inline-block flex justify-left ml-5 md:justify-center">
             <div className="word1 bg-[#B7D9E2] font-bold text-[#0C3756] 
-                 text-xl md:text-4xl mt-10 py-2.5 px-2.5 rounded-tl-lg rounded-bl-lg">
+                 text-xl md:text-4xl mt-32 md:mt-10 py-2.5 px-2.5 rounded-tl-lg rounded-bl-lg">
                Work Experiences
             </div>
             <div className="word1 bg-[#FFF9BA] font-bold text-[#0C3756] 
-                 text-xl md:text-4xl mt-10 py-2.5 px-2.5 rounded-tr-lg rounded-br-lg">
+                 text-xl md:text-4xl mt-32 md:mt-10 py-2.5 px-2.5 rounded-tr-lg rounded-br-lg">
                Education
             </div>
             </div>

@@ -1,6 +1,6 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import { faHouseChimneyUser } from "@fortawesome/free-solid-svg-icons";
+import { faSquareH } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
@@ -19,9 +19,9 @@ const NavBar = () => {
             <ScrollLink to="HomeFirst" spy={true} smooth={true} offset={-200} duration={1000} className="hover:scale-105">
                  <div className="font-onest text-xl font-bold text-[#0C3756]">
                    <span className="text-2xl ml-7 mr-1">
-                   <FontAwesomeIcon icon={faHouseChimneyUser} />
+                   <FontAwesomeIcon icon={faSquareH} />
                    </span>
-                   SP
+                   ome
                  </div>
             </ScrollLink>
 

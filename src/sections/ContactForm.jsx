@@ -37,25 +37,30 @@ const ContactForm = () => {
   return (
     <>
       <Element name="ContactForm">
-      <div className="structure grid grid-cols-2">
+      <div className="word1 inline-block flex justify-center">
+            <div className="webdev bg-[#B7D9E2] font-bold text-[#0C3756] 
+                 text-lg md:text-4xl py-2 px-2.5 rounded-lg mt-14">
+               Contact Me 
+            </div>
+      </div>  
 
+      <div className="boxform grid grid-col-1">
       <form onSubmit={handleSubmit} 
-        className="contactform col-span-2 md:col-span-1 flex flex-col justify-center
-        mt-24 mb-32 ml-10 mr-10 w-[80%]">
+        className="contactform ml-10 mr-10 mt-5 flex flex-col justify-self-center w-[80%] md:w-[40%] mb-14">
 
         <input
           type="text"
           placeholder="Your Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="rounded-lg mb-2"
+          className="rounded-lg mb-2 py-1.5"
         />
         <input
           type="email"
           placeholder="Your Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="rounded-lg mb-4"
+          className="rounded-lg mb-4 py-1.5"
         />
         <textarea
           cols="30"
@@ -66,22 +71,10 @@ const ContactForm = () => {
         />
         <button 
           type="submit"
-          className="rounded-lg bg-[#FFF9BA] font-bold">
+          className="rounded-lg bg-[#FFF9BA] font-bold py-1.5">
           Send
         </button>
       </form>
-
-      <div className="picHome md:col-span-1 flex flex-col mt-24">
-         <div className="word1 inline-block flex ml-32">
-            <div className="webdev bg-[#B7D9E2] font-bold text-[#0C3756] 
-                 text-lg md:text-4xl py-2 px-2.5 rounded-lg">
-               Contact Me 
-            </div>
-          </div>
-          <img src={contactme} alt="mypic image" 
-           className="hidden md:w-[500px] md:h-[250px] md:block mt-10" />
-      </div>
-
       </div>
       </Element>
     </>
@@ -89,3 +82,4 @@ const ContactForm = () => {
 }
 
 export default ContactForm;
+
