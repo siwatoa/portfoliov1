@@ -16,7 +16,7 @@ const NavBar = () => {
         <>
           <div className="weblogo bg-[#B7D9E2] md:flex place-items-center justify-between py-2.5">
             
-            <ScrollLink to="HomeFirst" spy={true} smooth={true} offset={-70} duration={1000} className="hover:scale-105">
+            <ScrollLink to="HomeFirst" spy={true} smooth={true} offset={-200} duration={1000} className="hover:scale-105">
                  <div className="font-onest text-xl font-bold text-[#0C3756]">
                    <span className="text-2xl ml-7 mr-1">
                    <FontAwesomeIcon icon={faHouseChimneyUser} />
@@ -38,7 +38,7 @@ const NavBar = () => {
               Links.map((link) => (
                 <li key={link.name} className="md:ml-[32px] md:my-0 my-[20px]">
                    <ScrollLink to={link.link} spy={true} smooth={true} 
-                   offset={-70} duration={1000} className="relative overflow-hidden group">
+                   offset={-50} duration={1000} className="relative overflow-hidden group">
                     {link.name}
                     <span className="absolute w-full h-[3px] bg-[#0C3756] left-0 bottom-0 transform scale-x-0 group-hover:scale-x-100 transition-transform transform-origin-left duration-1000"></span>
                    </ScrollLink>

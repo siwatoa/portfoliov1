@@ -20,7 +20,7 @@ const HomeFirst = () => {
     return(
         <>
         <Element name="HomeFirst">
-        <section className="home grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-24 mx-6">
+        <section className="home grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-32 mx-6 mt-20 md:mb-32">
 
         <div className="intro col-span-1 order-2 md:order-1 justify-self-center">
           <div className="arrangeintro ml-15 md:ml-10">

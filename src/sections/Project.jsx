@@ -10,15 +10,15 @@ const ProjectsMe = () => {
        <Element name="ProjectsMe">
        <div className="word1 inline-block flex justify-center">
             <div className="webdev bg-[#F0FCFE] font-bold text-[#0C3756] 
-                 text-lg md:text-4xl mt-5 py-2.5 pr-1 pl-2.5 rounded-tl-lg rounded-bl-lg">
+                 text-lg md:text-4xl mt-10 py-2.5 pr-1 pl-2.5 rounded-tl-lg rounded-bl-lg">
                Projects
             </div>
             <div className="webdev bg-[#B7D9E2] font-bold text-[#0C3756] 
-                 text-lg md:text-4xl mt-5 py-2.5 px-1.5">
+                 text-lg md:text-4xl mt-10 py-2.5 px-1.5">
                Web Developer
             </div>
             <div className="webdev bg-[#FFF9BA] font-bold text-[#0C3756] 
-                 text-lg md:text-4xl mt-5 py-2.5 pr-2.5 rounded-tr-lg rounded-br-lg">
+                 text-lg md:text-4xl mt-10 py-2.5 pr-2.5 rounded-tr-lg rounded-br-lg">
                Data Analyst
             </div>             
        </div>

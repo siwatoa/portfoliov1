@@ -41,7 +41,7 @@ const ContactForm = () => {
 
       <form onSubmit={handleSubmit} 
         className="contactform col-span-2 md:col-span-1 flex flex-col justify-center
-        mt-28 mb-28 ml-10 mr-10 w-[80%]">
+        mt-24 mb-32 ml-10 mr-10 w-[80%]">
 
         <input
           type="text"
@@ -66,14 +66,20 @@ const ContactForm = () => {
         />
         <button 
           type="submit"
-          className="rounded-lg bg-[#B7D9E2] font-bold">
+          className="rounded-lg bg-[#FFF9BA] font-bold">
           Send
         </button>
       </form>
 
-      <div className="picHome md:col-span-1 order-1 md:order-2 flex items-center mt-28">
+      <div className="picHome md:col-span-1 flex flex-col mt-24">
+         <div className="word1 inline-block flex ml-32">
+            <div className="webdev bg-[#B7D9E2] font-bold text-[#0C3756] 
+                 text-lg md:text-4xl py-2 px-2.5 rounded-lg">
+               Contact Me 
+            </div>
+          </div>
           <img src={contactme} alt="mypic image" 
-           className="hidden md:w-[500px] md:h-[250px] md:block" />
+           className="hidden md:w-[500px] md:h-[250px] md:block mt-10" />
       </div>
 
       </div>
