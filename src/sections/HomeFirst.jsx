@@ -61,7 +61,7 @@ const HomeFirst = () => {
            </a>
 
            <a href="mailto:siwatoa@gmail.com" target="_blank">
-           <button className="font-bold text-sm py-1.5 px-2.5 ml-2.5
+           <button className="font-bold text-sm py-1.5 px-3.5 ml-2.5
                    bg-[#B7D9E2] [text-[#0C3756] rounded-lg hover:scale-105">
                    <FontAwesomeIcon icon={faEnvelope} />{' '} {textStatic.txt20}
            </button>
