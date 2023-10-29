@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import contactme from "../assets/contactme.png";
+import { Element } from 'react-scroll';
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -35,6 +36,7 @@ const ContactForm = () => {
 
   return (
     <>
+      <Element name="ContactForm">
       <div className="structure grid grid-cols-2">
 
       <form onSubmit={handleSubmit} 
@@ -75,6 +77,7 @@ const ContactForm = () => {
       </div>
 
       </div>
+      </Element>
     </>
   );
 }

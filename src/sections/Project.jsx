@@ -2,10 +2,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { ProjectList } from "../contents/Project";
+import { Element } from "react-scroll";
 
 const ProjectsMe = () => {
     return(
        <>
+       <Element name="ProjectsMe">
        <div className="word1 inline-block flex justify-center">
             <div className="webdev bg-[#F0FCFE] font-bold text-[#0C3756] 
                  text-lg md:text-4xl mt-5 py-2.5 pr-1 pl-2.5 rounded-tl-lg rounded-bl-lg">
@@ -49,6 +51,7 @@ const ProjectsMe = () => {
             </div>))}
         
         </div>
+        </Element>
         </> 
     )
 };
