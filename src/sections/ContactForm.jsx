@@ -13,7 +13,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (name.length > 50 || !name.trim() || !email.match(/^.+@.+\..+$/)) {
+    if (name.length > 20 || !name.trim() || !email.match(/^.+@.+\..+$/)) {
       setIsValid(false);
       return;
     }
@@ -80,7 +80,7 @@ const ContactForm = () => {
               onChange={(e) => setMessage(e.target.value)}
               className="rounded-lg mb-4"
             />
-            {!isValid && <div className="error-message text-[#FFDD00]">Please complete the contact form.</div>}
+            {!isValid && <div className="error-message text-[#FFDD00]">Please fill in name, e-mail, message.</div>}
             <button
               type="submit"
               className="rounded-lg bg-[#FFF9BA] font-bold py-1.5 active:bg-yellow-300 active:scale-95"
