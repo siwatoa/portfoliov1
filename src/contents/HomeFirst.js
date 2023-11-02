@@ -5,7 +5,7 @@ export const textStatic = {
     txt4: "Actively",
     txt5: "seeking",
     txt6: "an opportunity",
-    txt7: "to join Data Analyst, QA or Web Developer.",
+    txt7: "to join Business and Data Analyst, Software QA or Web Developer.",
     txt8: "Have",
     txt9: "expertise in Systems Analyst, ",
     txt10: "especially in",
@@ -16,7 +16,7 @@ export const textStatic = {
     txt15: "about",
     txt16: "learning",
     txt17: "what it takes",
-    txt18: "to become a Data Analyst, QA or Web Developer.",
+    txt18: "to become a Business and Data Analyst, Software QA or Web Developer.",
     txt19: "Resume",
     txt20: "E-mail",
 };

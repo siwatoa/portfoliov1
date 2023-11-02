@@ -12,7 +12,7 @@ import { Element } from "react-scroll";
 
 const HomeFirst = () => {
     const [text] = useTypewriter({
-        words: ["An Ex-System Analyst","Passionate on Data","Becoming a Web Developer"],
+        words: ["An Ex-System Analyst","Passionate on Data and Analysis", "Also A Web Developer"],
         loop: {},
         typeSpeed: 150,
         delaySpeed: 80,
