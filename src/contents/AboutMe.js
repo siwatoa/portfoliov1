@@ -31,17 +31,23 @@ export const AboutA = {
     pos: "Web Developer Bootcamp Graduate",
     yrplace: "Jul 2023 - Oct 2023 at Generation Thailand",
     des1: "• Collaborated in a diverse team to create a full-stack fitness website.", 
-    des2: "• Implemented SCRUM-Agile Methodology to ensure successful sprint deliveries.",
+    des2: "• Designed UI/UX, data and dashboard, developed front-end, and performed manual software testing.",
+    des3: "• Implemented SCRUM and Agile Methodology to ensure successful sprint deliveries.",
 };
 
 export const AboutB = {
     pos: "Systems Analyst | Customer Relations Officer",
     yrplace: "Oct 2005 - Apr 2021 at Thai Airways International",
-    des1: `• Analyzed and contributed to functional specifications, configured information systems, 
-          set authorizations, and programmed within existing software.`,
-    des2: "• Conducted data analysis for reporting and visualization.",
-    des3: "• Managed customer complaints from Airlines Customer Representatives.",
-    des4: "• Facilitated meetings with Airlines Customer Representatives in Bangkok and surrounding regions.",
+    des1: `• Gathered business requirements, analyzed, designed, 
+            and contributed to functional and non-functional specifications. 
+            Conducted Data Migration, System Integration, User Acceptance, 
+            and Business Simulation Testing. Established Role and Authorization settings, 
+            provided training, and offered support to ensure smooth operations for SAP and SABRE users.`,
+    des2: `• Performed data analysis for reporting and visualization, 
+            such as generating financial month-end reports for management 
+            and compiling Airline Customer Satisfaction and Complaint data (Monthly, Quarterly, Yearly) 
+            for the operations and sales marketing department.`,
+    des3: "• Facilitated meetings with Airlines Customer Representatives in Bangkok and surrounding regions.",
 };
 
 export const AboutC ={

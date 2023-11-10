@@ -46,6 +46,7 @@ const AboutMe = () => {
               <h3 className="vertical-timeline-element-title font-semibold">{AboutA.yrplace}</h3>
               <h4 className="vertical-timeline-element-subtitle mt-5">{AboutA.des1}</h4>
               <h4 className="vertical-timeline-element-subtitle">{AboutA.des2}</h4>
+              <h4 className="vertical-timeline-element-subtitle">{AboutA.des3}</h4>
               </VerticalTimelineElement>
 
               <VerticalTimelineElement 
@@ -59,7 +60,6 @@ const AboutMe = () => {
               <h4 className="vertical-timeline-element-subtitle mt-5">{AboutB.des1}</h4>
               <h4 className="vertical-timeline-element-subtitle">{AboutB.des2}</h4>
               <h4 className="vertical-timeline-element-subtitle">{AboutB.des3}</h4>
-              <h4 className="vertical-timeline-element-subtitle">{AboutB.des4}</h4>
               </VerticalTimelineElement>
 
               <VerticalTimelineElement 
